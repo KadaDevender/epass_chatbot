@@ -16,7 +16,7 @@ function Signup() {
     }
 
     try {
-      const res = await axios.post(`${API}/signup`, {
+       await axios.post(`${API}/signup`, {
         username,
         password,
       });
