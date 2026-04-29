@@ -10,7 +10,8 @@ function ChatbotUI() {
   const chatEndRef = useRef(null);
 
   // 🔥 API URL (LIVE BACKEND)
-  const API = process.env.REACT_APP_API_URL;
+  // const API = process.env.REACT_APP_API_URL;
+  const API = "http://127.0.0.1:8000";
 
   // 🔥 LOAD HISTORY
   useEffect(() => {
